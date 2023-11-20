@@ -4,6 +4,8 @@
   --softBg: #f0f0f0;
   --softTextColor: #626262;
   --logoColor: rgb(70, 67, 29);
+  --lowOPa: #363434;
+  --catColor: rgb(248, 179, 193);
 }
 
 * {
@@ -28,6 +30,8 @@ a {
   --softBg: #1f273a;
   --siftTextColor: #a6a6a6;
   --logoColor: rgb(223, 212, 66);
+  --lowOPa: #fff7f7;
+  --catColor: rgb(172, 45, 71);
 }
 
 .container {

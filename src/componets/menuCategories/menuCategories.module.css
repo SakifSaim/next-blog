@@ -1,0 +1,23 @@
+.categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.categoryItem {
+  padding: 10px 25px;
+  border-radius: 10px;
+  align-items: center;
+  flex: 2;
+  font-size: 14px;
+  background-color: var(--catColor);
+  color: var(--textColor);
+}
+
+.categoryItem:nth-child(even) {
+  background-color: rgb(160, 95, 131);
+}

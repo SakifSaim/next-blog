@@ -49,11 +49,22 @@
   border: none;
   border-radius: 5px;
   width: max-content;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1366px) {
   .title {
-    font-size: 72px;
+    font-size: 68px;
+  }
+
+  .imgContainer {
+    height: 45dvh;
+  }
+  .postTitle {
+    font-size: 36px;
+  }
+  .postDesc {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1024px) {
