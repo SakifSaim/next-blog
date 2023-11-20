@@ -73,6 +73,11 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .container {
+    width: 96%;
+    margin: auto;
+  }
+
   .title {
     font-size: 48px;
   }
