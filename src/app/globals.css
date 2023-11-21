@@ -6,6 +6,7 @@
   --logoColor: rgb(70, 67, 29);
   --lowOPa: #363434;
   --catColor: rgb(248, 179, 193);
+  --blogTile: rgb(255, 229, 80);
 }
 
 * {
@@ -32,6 +33,7 @@ a {
   --logoColor: rgb(223, 212, 66);
   --lowOPa: #fff7f7;
   --catColor: rgb(172, 45, 71);
+  --blogTile: rgb(255, 159, 80);
 }
 
 .container {

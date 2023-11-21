@@ -1,0 +1,12 @@
+.title {
+  background-color: var(--blogTile);
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-shadow: 1px -2px 7px rgba(0, 0, 0, 0.94);
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}

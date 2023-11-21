@@ -22,6 +22,7 @@ const AuthLinks = () => {
           <span>Logout</span>
         </>
       )}
+      {/* =========== Responsive Menu --------- */}
       <div className={styles.burger} onClick={() => setOpen(!open)}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>

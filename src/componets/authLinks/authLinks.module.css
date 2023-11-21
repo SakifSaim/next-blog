@@ -24,7 +24,7 @@
   background-color: var(--bg);
   height: calc(100vh - 100px);
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -32,10 +32,19 @@
   font-size: 36px;
 }
 
+@media screen and (max-width: 860px) {
+  .responsiveMenu {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .burger {
     display: flex;
     justify-items: end;
+  }
+  .responsiveMenu {
+    display: flex;
   }
 
   .link {
